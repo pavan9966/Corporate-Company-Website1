@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testimonials</title>
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background-color: white;
+                text-align: center;
+            }
+            .container{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+            .testimonial{
+                background-color: white;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px gray;
+                width: 300px;
+            }
+            .name{
+                font-weight: bold;
+                font-size: 18px;
+            }
+            .stars{
+                color: gold;
+                font-size: 30px;
+            }
+            header{
+                width: 100%;
+                padding: 20px 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            .logo{
+                width: 140px;
+                height: 70px;
+                border: 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 24px;
+                font-weight: bold;
+            }
+               nav ul{
+                list-style: none;
+                display: flex;
+                gap: 40px;
+
+
+            }
+              nav ul li a{
+                text-decoration: none;
+                color: black;
+                font-size: 18Gpx;
+
+
+            }
+            .banner{
+                background-color: aqua;
+                padding: 40px 20px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="logo">MICROINFO WEB</div>
+            <nav>
+    <ul>
+        
+             <li><a href="index.html">Home</a></li>
+
+            <li><a href="About-us.html">About Us</a></li>
+
+            <li><a href="Services.html">Services</a></li>
+
+            <li><a href="clientpage.html">Clients</a></li>
+
+            <li><a href="Testimonials.html">Testimonials</a></li>
+
+            <li><a href="careersection.html">Careers</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+
+    </ul>
+</nav>
+    </header>
+    <div class="banner">
+    <h1>Testimonials</h1>
+    </div>
+        <center><h1 style="color: blue;">Feedback Form</h1></center>
+            <center><p> we would like to hear from you!</p></center>
+            <br>
+            <form>
+                <label>Your Name:</label>
+                <input type="text" placeholder="Enter Your Name"><br>
+                <br>
+                <label>Company</label>
+                <input type="text" placeholder="Enter Your Company"><br>
+                <br>
+                <label>your Email:</label>
+                <input type="text" placeholder="@ required your mail"><br>
+                <br>
+                <label>Rating:</label>
+                <select id="rating">
+                    <option value="">Select Rating</option>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="2">2 - Poor</option>
+                    <option value="1">1 - Very Poor</option>
+                </select><br>
+                <br>
+                <label>Your Feedback:</label>
+                <textarea rows="5" placeholder="write Your Feedback"></textarea><br>
+                <br>
+                <div class="btn">
+                <input type="submit" value="submit" style="background-color: blueviolet; color: white; padding: 10px 30px; border: none; border-radius: 80px; cursor: pointer;">
+                <input type="reset" value="reset" style="background-color: blueviolet; color: white; padding: 10px 30px; border: none; border-radius: 80px; cursor: pointer;">
+                </div>
+                </form>
+                <hr>
+        <h1 style="color: blue;">customer reviews</h1>
+        <p>see what our customers are saying</p>
+        <div class="container">
+            <div class="testimonial">
+                <image src="https://www.svgrepo.com/show/506667/person.svg" height="30" width="20"></image>
+                <h3>varsha</h3>
+                <div class="stars">*****</div>
+                <p>Good company and good infrastructure.</p>
+                <p>good support team</p>
+             </div>
+            <div class="testimonial">
+                <image src="https://www.svgrepo.com/show/506667/person.svg" height="20" width="30"></image>
+                <h3>Jhon</h3>
+                <div class="stars">*****</div>
+                <p>Great experience working here</p>
+                <p>on time delivery</p>
+                </div>
+                <div class="testimonial">
+                    <image src="https://www.svgrepo.com/show/506667/person.svg" height="30" width="20"></image>
+                    <h3>Tom</h3>
+                    <div class="stars">*****</div>
+                    <p>friendly staff and quick response.</p>
+                    <p>friendly environment.</p>
+                </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+
+                <center><footer>@copy rights microinfo web 2026</footer></center>
+    </body>
+</html>
